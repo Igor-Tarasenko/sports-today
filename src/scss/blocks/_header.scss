@@ -1,0 +1,39 @@
+header {
+	padding: 15px 0;
+	background: #131313;
+	.logo {
+		a {
+			margin-left: 15px;
+		}
+		img {
+			height: 60px;
+			width: auto;
+		}
+	}
+	.header-menu {
+		display: flex;
+		align-items: center;
+		padding-right: 0;
+		ul {
+			list-style-type: none;
+			display: flex;
+			align-items: center;
+			justify-content: flex-start;
+			padding-left: 0;
+			width: 100%;
+			li {
+				margin-left: 50px;
+				a {
+					font-family: $montserrat-font;
+					color: #ffffff;
+					font-size: 16px;
+					cursor: pointer;
+				}
+			}
+		}
+	}
+	.navbar {
+		padding: 0;
+		width: 100%;
+	}
+}

@@ -1,0 +1,240 @@
+@media screen and (min-width: 1326px) {
+	.container {
+		max-width: 1326px;
+	}
+}
+@media screen and (min-width: 1587px) {
+	.container {
+		max-width: 1587px;
+	}
+}
+@media (min-width: 992px) {
+	.navbar-expand-lg {
+		justify-content: space-between!important;
+	}
+}
+@media screen and (max-width: 1400px) {
+	body, .about .about_text p, .section-5 .question p {
+		font-size: 18px;
+	}
+	h1 {
+		font-size: 36px;
+	}
+	header .header-menu ul li:first-child {
+		margin-left: 0;
+	}
+}
+@media screen and (max-width: 1200px) {
+	header .header-menu ul li a {
+		font-size: 16px;
+	}
+	h1 {
+		font-size: 30px;
+	}
+	h2 {
+		font-size: 50px;
+	}
+	.section-2 .about_text p {
+		font-size: 18px;
+	}
+	header .header-menu ul li {
+		margin-left: 15px;
+		&:first-child {
+			margin-left: 0;
+		}
+	}
+	h3 {
+		font-size: 22px;
+		line-height: 28px;
+	}
+}
+@media screen and (max-width: 1050px) {
+	header .header-menu ul li {
+		margin-left: 20px;
+	}
+}
+@media screen and (max-width: 991px) {
+	h1 {
+		text-align: center;
+	}
+	.main-section .title {
+		margin-top: 40px;
+	}
+	.btn-block {
+		justify-content: center;
+	}
+	.main-section .btn-block {
+		margin: 35px 0;
+	}
+	.main-section .title-img {
+		display: flex;
+		justify-content: center;
+		img {
+			width: 70%;
+		}
+	}
+	.logo {
+		padding-left: 35px;
+	}
+	header .header-link a {
+		font-size: 12px;
+		min-height: 30px;
+		min-width: 36px;
+	}
+	.btn {
+		font-size: 16px;
+	}
+	.navbar-toggler {
+		background: url("../img/bars-solid.png") no-repeat center right;
+		background-size: contain;
+		width: 100%;
+		height: 50px;
+		outline: none;
+		margin-top: 5px;
+	}
+	header .header-menu ul {
+		height: 100%;
+		justify-content: center;
+	}
+	header .header-menu ul li a {
+		font-size: 22px;
+		color: #2b3237;
+	}
+	header .header-menu ul li {
+		margin-top: 15px;
+		text-align: center;
+	}
+	.navbar-collapse {
+		display: block!important;
+		position: fixed;
+		list-style:none;
+		padding: 10px;
+		margin: 0;
+		box-sizing: border-box;
+		width: 200px;
+		background-color: #ffffff;
+		height: 100%;
+		top: 0;
+		right: -200px;
+		transition: all .3s;
+		z-index: 50;
+	}
+	.active {
+		right: 0;
+	}
+	header .header-menu {
+		margin-top: 0;
+		height: 50px;
+		padding-right: 35px;
+	}
+	header .navbar {
+		height: 100%;
+		background: transparent;
+	}
+	header .header-menu ul li {
+		margin-left: 0;
+	}
+	.toTop {
+		bottom: 50px;
+		right: 50px;
+	}
+	body, .about .about_text p, .section-5 .question p {
+		font-size: 16px;
+	}
+	.how-it-works .how-it-works_block .text-description_main {
+		padding: 35px 35px;
+	}
+	.about .about_img {
+		padding: 0 15px;
+	}
+	.how-it-works {
+		margin-top: 20px;
+	}
+	h2 {
+		font-size: 40px;
+	}
+	.section-3 .slider .slick-prev {
+		left: 15px;
+	}
+	.section-3 .slider .slick-next {
+		left: 110px;
+	}
+	.section-3 .slider .item {
+		height: 350px;
+	}
+}
+@media screen and (max-width: 767px) {
+	.main-section .btn-block {
+		margin-top: 15px;
+	}
+	h2 {
+		font-size: 33px;
+	}
+	h3 {
+		min-height: 30px;
+	}
+}
+@media screen and (max-width: 575px) {
+	.section-3 .slider .slick-prev, .section-3 .slider .slick-next {
+		background-size: contain;
+	}
+	.main-section .title-img {
+		padding: 0 15px;
+		img {
+			width: 100%;
+		}
+	}
+	header .logo {
+		padding-left: 0;
+		display: flex;
+		align-items: center;
+	}
+	header .header-menu {
+		padding-right: 15px;
+	}
+	body, .about .about_text p, .section-5 .question p {
+		font-size: 14px;
+	}
+	.about .about_img {
+		margin-bottom: 20px;
+	}
+	.how-it-works .section-with-img_img-block {
+		margin-bottom: 20px;
+		img {
+			height: auto;
+		}
+	}
+	.section-3 .slider .slick-arrow {
+		height: 36px;
+	}
+	.section-5 .question {
+		padding: 5px 35px;
+	}
+	.section-3 .slider .item {
+		padding: 15px;
+	}
+}
+@media screen and (max-width: 483px) {
+	.toTop {
+		bottom: 20px;
+		right: 20px;
+		width: 60px;
+		img {
+			width: 100%;
+		}
+	}
+	.section-3 .slider .item {
+		height: 340px;
+	}
+}
+@media screen and (max-width: 420px) {
+	.logo {
+		padding-left: 15px;
+	}
+	header .header-menu {
+		padding-right: 15px;
+	}
+	h1, h2 {
+		letter-spacing: 0;
+	}
+}
