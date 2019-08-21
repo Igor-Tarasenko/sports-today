@@ -1,7 +1,7 @@
 @import 'libs';
 @import 'fonts';
 // colors
-$body-background: #ffffff;
+$white-color: #ffffff;
 
 // fonts
 $montserrat-font: 'Montserrat', sans-serif;
@@ -15,10 +15,10 @@ html {
 	box-sizing: inherit;
 }
 body {
-	color: #2b3237;
+	color: #333333;
 	font-size: 20px;
 	font-weight: 400;
-	background: $body-background;
+	background: $white-color;
 	font-family: $montserrat-font;
 }
 h1 {
@@ -32,29 +32,27 @@ h1 {
 }
 h2 {
 	font-family: $montserrat-font;
-	font-size: 52px;
-	color: #2b3237;
-	text-align: center;
-	margin-bottom: 20px;
+	font-size: 36px;
+	color: #333333;
+	text-align: left;
 	font-weight: 900;
 	text-transform: uppercase;
 }
 h3 {
 	font-family: $montserrat-font;
-	font-size: 27px;
-	color: #2b3237;
-	font-weight: 600;
+	font-size: 32px;
+	color: $white-color;
+	font-weight: 900;
 	margin-bottom: 0;
-	text-align: center;
-	line-height: 35px;
-	min-height: 35px;
+	text-align: left;
+	line-height: 38px;
 }
 h4 {
 	font-family: $montserrat-font;
 	font-size: 24px;
 	text-transform: uppercase;
 	margin: 0;
-	color: $body-background;
+	color: $white-color;
 }
 a {
 	color: inherit;
@@ -69,20 +67,12 @@ ul {
 }
 p {
 	margin-bottom: 0;
-	color: #2b3237;
+	color: #333333;
 }
 b {
 	font-weight: bold;
 }
 button:focus {
 	outline: none;
-}
-.toTop {
-	position: fixed;
-	bottom: 40px;
-	right: 200px;
-	cursor: pointer;
-	display: none;
-	z-index: 9999;
 }
 @import 'index';

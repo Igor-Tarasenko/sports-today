@@ -1,0 +1,263 @@
+.main-news {
+	.main-news_img {
+		padding: 0;
+		img {
+			width: 100%;
+		}
+	}
+	.main-news-slider {
+		padding: 0;
+		position: relative;
+		.item {
+			margin: 0 15px;
+		}
+		.slick-arrow {
+			position: absolute;
+			bottom: 24px;
+			width: 95px;
+			height: 46px;
+			outline: none;
+			border: none;
+			cursor: pointer;
+			z-index: 100;
+		}
+		.slick-prev {
+			background: url("../img/prev-btn.png") no-repeat;
+			background-size: contain;
+			left: 54.5%;
+		}
+		.slick-next {
+			background: url("../img/next-btn.png") no-repeat;
+			background-size: contain;
+			right: 35.6%;
+		}
+	}
+	.main-news_small-description {
+		background: #2d2d2d;
+		padding: 70px 90px;
+		a {
+			font-size: 16px;
+			font-weight: 600;
+			text-transform: uppercase;
+			color: $white-color;
+			text-decoration: underline;
+		}
+	}
+	.news-description {
+		font-size: 18px;
+		text-align: left;
+		color: $white-color;
+	}
+}
+.vertical-align-block {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	height: 100%;
+}
+.mt-20 {
+	margin-top: 20px;
+}
+.main-title {
+	margin-top: 70px;
+	margin-bottom: 30px;
+	padding-left: 41px;
+}
+.main-list-news {
+	.all-news_slider {
+		.item {
+			box-shadow: 0px 4px 9px 0px rgba(29, 29, 29, 0.1);
+			margin: 0 30px;
+			outline: none;
+			border-radius: 5px;
+			overflow: hidden;
+		}
+		.slick-track {
+			padding: 15px 0;
+		}
+	}
+	.news-img {
+		img {
+			width: 100%;
+		}
+	}
+	.all-news_description {
+		padding: 25px;
+		p {
+			font-size: 14px;
+			color: #333333;
+			margin-bottom: 10px;
+			&:first-child {
+				font-weight: 700;
+				text-transform: uppercase;
+				font-size: 16px;
+				line-height: 20px;
+			}
+			&:last-child {
+				color: #fcb104;
+				font-weight: 600;
+				text-transform: uppercase;
+				text-decoration: underline;
+				font-size: 13px;
+				margin-bottom: 0;
+			}
+		}
+	}
+	.link-block {
+		padding: 0 25px 25px;
+		a {
+			color: #fcb104;
+			font-weight: 600;
+			text-transform: uppercase;
+			text-decoration: underline;
+			font-size: 13px;
+		}
+	}
+}
+.slick-slide {
+	outline: none!important;
+}
+.main-list-events {
+	.all-events_slider {
+		.item {
+			display: flex;
+			justify-content: flex-start;
+			border-radius: 5px;
+			overflow: hidden;
+			box-shadow: 0px 4px 9px 0px rgba(29, 29, 29, 0.1);
+			margin: 0 30px;
+		}
+	}
+	.slick-track {
+		padding: 15px 0;
+	}
+	.event_time-and-date {
+		background: #2d2d2d;
+		padding: 50px;
+		p {
+			font-weight: 700;
+			color: $white-color;
+			text-transform: uppercase;
+			font-size: 18px;
+			text-align: center;
+			padding-top: 15px;
+			&:first-child {
+				padding-top: 0;
+				padding-bottom: 15px;
+				border-bottom: 1px solid #fcb104;
+			}
+		}
+	}
+	.event_name {
+		min-height: 185px;
+		padding: 0 20px;
+	}
+	.name-league {
+		color: #fcb104;
+		font-size: 18px;
+		text-transform: uppercase;
+		font-weight: 700;
+	}
+	.event_teams {
+		display: flex;
+		justify-content: flex-start;
+		margin-top: 15px;
+		p {
+			font-size: 14px;
+			color: #333333;
+			margin: 0 20px;
+		}
+	}
+}
+.team {
+	display: flex;
+	align-items: center;
+	img {
+		height: 100%;
+		margin-right: 6px;
+	}
+	p {
+		margin: 0;
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		max-width: 150px;
+	}
+}
+.main-score-list {
+	.slick-track {
+		padding: 15px 0;
+	}
+	.item {
+		margin: 0 30px;
+		p {
+			font-size: 14px;
+		}
+	}
+	.name-of-sport {
+		p {
+			text-transform: uppercase;
+			color: #fcb104;
+			font-weight: 700;
+		}
+	}
+	.game-result {
+		padding: 20px;
+		border-radius: 5px;
+		box-shadow: 0px 4px 9px 0px rgba(29, 29, 29, 0.1);
+	}
+	.first-team_result, .second-team_result {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		p {
+			font-weight: 700;
+		}
+	}
+	.result {
+		display: flex;
+		justify-content: center;
+		p {
+			font-size: 24px;
+			color: #fcb104;
+			margin-right: 10px;
+			&:last-child {
+				margin-right: 0;
+			}
+		}
+	}
+}
+.popular-bet {
+	.slick-track {
+		padding: 15px 0;
+	}
+	.item {
+		margin: 0 30px;
+		padding: 10px 20px;
+		border-radius: 5px;
+		box-shadow: 0px 4px 9px 0px rgba(29, 29, 29, 0.1);
+		p {
+			font-size: 14px;
+			font-weight: 700;
+		}
+	}
+	.first-team-win, .draw, .second-team-win {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		margin-bottom: 15px;
+		p {
+			&:last-child {
+				background: #333333;
+				color: #ffffff;
+				font-size: 18px;
+				border-radius: 5px;
+				width: 130px;
+				text-align: center;
+			}
+		}
+	}
+	.second-team-win {
+		margin-bottom: 0;
+	}
+}
