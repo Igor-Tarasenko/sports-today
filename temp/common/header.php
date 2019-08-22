@@ -14,16 +14,16 @@
                     <div class="navbar-collapse collapse" id="navbars" style="">
                         <ul class="navbar-nav">
                             <li>
-                                <a href="about.php#section-4" class="topLink">News</a>
+                                <a href="news.php" class="topLink">News</a>
                             </li>
                             <li>
                                 <a href="events.php" class="topLink">Events</a>
                             </li>
                             <li>
-                                <a href="review.php#section-3" class="topLink">Results</a>
+                                <a href="result.php" class="topLink">Results</a>
                             </li>
                             <li>
-                                <a href="contacts.php#contacts" class="topLink">Odds</a>
+                                <a href="odds.php" class="topLink">Odds</a>
                             </li>
                         </ul>
                     </div>

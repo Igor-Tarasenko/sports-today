@@ -1,4 +1,6 @@
 $(document).ready(function() {
+
+    /*LAUNCH SLIDER*/
     $(".main-news-slider").slick({
         infinite: true,
         slidesToShow: 1,
@@ -9,7 +11,7 @@ $(document).ready(function() {
         fade: true,
         cssEase: 'linear'
     });
-    $(".all-news_slider").slick({
+    $(".all-news_slider, .all-result_slider, .popular-bet_slider").slick({
         infinite: true,
         slidesToShow: 3,
         arrows: false,
@@ -23,20 +25,8 @@ $(document).ready(function() {
         autoplay: true,
         autoplaySpeed: 2000
     });
-    $(".all-result_slider").slick({
-        infinite: true,
-        slidesToShow: 3,
-        arrows: false,
-        autoplay: true,
-        autoplaySpeed: 2000
-    });
-    $(".popular-bet_slider").slick({
-        infinite: true,
-        slidesToShow: 3,
-        arrows: false,
-        autoplay: true,
-        autoplaySpeed: 2000
-    });
+
+    /*OPEN MENU ON MOBILE AND TABLET*/
     $(".navbar-toggler").click(function () {
         $(".navbar-collapse").addClass("active");
     });
@@ -47,6 +37,6 @@ $(document).ready(function() {
         }
     });
 
-    // Стилизация выпадающего списка
-    $('#kind-of-sport').styler();
+    /*STYLING A DROP-DOWN LIST*/
+    $('.kind-of-sport').styler();
 });

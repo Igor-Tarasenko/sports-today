@@ -1,0 +1,44 @@
+.bet-page {
+	.main-block-with-odds {
+		.item {
+			margin-top: 30px;
+			&:first-child {
+				margin-top: 0;
+			}
+		}
+	}
+	.choose-sport-block {
+		padding-left: 40px;
+	}
+	.bet-block-for-first-team, .bet-block-for-draw, .bet-block-for-second-team {
+		display: flex;
+		align-items: center;
+		justify-content: flex-end;
+		p {
+			background: #333333;
+			color: #ffffff;
+			font-size: 18px;
+			border-radius: 5px;
+			width: 50px!important;
+			text-align: center;
+			margin-left: 10px;
+			&:first-child {
+				margin-left: 0;
+			}
+		}
+	}
+	.block-with-betting-companies {
+		display: flex;
+		align-items: center;
+		justify-content: flex-end;
+		padding-right: 66px;
+		margin-top: 50px;
+		img {
+			width: 50px;
+			margin-left: 10px;
+			&:first-child {
+				margin-left: 0;
+			}
+		}
+	}
+}
