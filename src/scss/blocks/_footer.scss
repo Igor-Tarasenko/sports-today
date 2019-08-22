@@ -1,19 +1,40 @@
 footer {
-	position: relative;
+	background: #2d2d2d;
 	padding: 50px 0;
-	h2 {
-		text-align: center;
-		margin-bottom: 30px;
-	}
-	.email-btn {
-		color: #2b3237;
-		text-align: center;
+	margin-top: 50px;
+	.footer-menu {
 		a {
-			background: url("../img/mail.png") no-repeat center left;
-			background-size: 30px;
-			font-family: $montserrat-font;
-			font-size: 24px;
-			padding-left: 40px;
+			color: #ffffff;
+		}
+		ul {
+			display: flex;
+			align-items: center;
+			justify-content: flex-start;
+			list-style-type: none;
+			padding-left: 42px;
+			height: 100%;
+			li {
+				margin-right: 20px;
+				font-size: 14px;
+				&:last-child {
+					margin-right: 0;
+				}
+			}
+		}
+	}
+	.footer-copyright {
+		display: flex;
+		align-items: center;
+		justify-content: flex-end;
+		padding-right: 43px;
+		p {
+			font-size: 12px;
+			color: $white-color;
+		}
+	}
+	.footer-logo {
+		img {
+			width: 100px;
 		}
 	}
 }

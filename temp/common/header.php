@@ -17,7 +17,7 @@
                                 <a href="about.php#section-4" class="topLink">News</a>
                             </li>
                             <li>
-                                <a href="faq.php#section-5" class="topLink">Events</a>
+                                <a href="events.php" class="topLink">Events</a>
                             </li>
                             <li>
                                 <a href="review.php#section-3" class="topLink">Results</a>

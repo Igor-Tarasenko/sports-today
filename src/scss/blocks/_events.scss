@@ -1,0 +1,40 @@
+.events-page {
+	.team p {
+		max-width: 200px;
+	}
+	.main-title {
+		padding-left: 15px;
+	}
+	.event {
+		margin-top: 30px;
+	}
+	.jq-selectbox__select {
+		border: 1px solid #d0d0d0;
+		border-radius: 5px;
+		padding: 9px 20px;
+		outline: none;
+		cursor: pointer;
+		color: #333333;
+		font-size: 14px;
+		min-width: 280px;
+		background: url("../img/small-arrow.png") no-repeat 250px center;
+	}
+	.jq-selectbox__dropdown {
+		left: 0;
+		right: 0;
+		background: #ffffff;
+		border: 1px solid #d0d0d0;
+		border-radius: 5px;
+		z-index: 15;
+		li {
+			font-size: 16px;
+			padding: 5px 10px;
+			cursor: pointer;
+			background: transparent;
+			transition: .3s ease;
+			&:hover {
+				background: #fcb104;
+			}
+		}
+	}
+}

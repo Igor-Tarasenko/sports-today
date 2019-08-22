@@ -46,4 +46,7 @@ $(document).ready(function() {
             div.removeClass("active");
         }
     });
+
+    // Стилизация выпадающего списка
+    $('#kind-of-sport').styler();
 });

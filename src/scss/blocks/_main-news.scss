@@ -118,13 +118,13 @@
 	outline: none!important;
 }
 .main-list-events {
+	.item {
+		border-radius: 5px;
+		overflow: hidden;
+		box-shadow: 0px 4px 9px 0px rgba(29, 29, 29, 0.1);
+	}
 	.all-events_slider {
 		.item {
-			display: flex;
-			justify-content: flex-start;
-			border-radius: 5px;
-			overflow: hidden;
-			box-shadow: 0px 4px 9px 0px rgba(29, 29, 29, 0.1);
 			margin: 0 30px;
 		}
 	}
@@ -168,6 +168,10 @@
 			margin: 0 20px;
 		}
 	}
+}
+.flex-block {
+	display: flex;
+	justify-content: flex-start;
 }
 .team {
 	display: flex;
@@ -259,5 +263,23 @@
 	}
 	.second-team-win {
 		margin-bottom: 0;
+	}
+}
+.yellow-btn-block {
+	padding-left: 42px;
+	margin-top: 30px;
+}
+.yellow-btn {
+	display: inline-block;
+	background: #fcb104;
+	color: #333333;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: 600;
+	padding: 9px 36px;
+	border-radius: 5px;
+	transition: .4s ease;
+	&:hover {
+		transform: scale(1.1);
 	}
 }

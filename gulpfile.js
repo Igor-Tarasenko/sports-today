@@ -50,14 +50,16 @@ gulp.task('tinypng-temp', function () {
 gulp.task('libs-build', function() {
 	return gulp.src(['node_modules/jquery/dist/jquery.min.js',
 					 'node_modules/bootstrap/dist/js/bootstrap.bundle.min.js',
-					 'src/js/slick.min.js'])
+					 'src/js/slick.min.js',
+					 'src/js/jquery.formstyler.min.js'])
 		.pipe(concat('libs.min.js'))
 		.pipe(gulp.dest('build/js'))
 });
 gulp.task('libs-temp', function() {
 	return gulp.src(['node_modules/jquery/dist/jquery.min.js',
 					 'node_modules/bootstrap/dist/js/bootstrap.bundle.min.js',
-					 'src/js/slick.min.js'])
+					 'src/js/slick.min.js',
+					 'src/js/jquery.formstyler.min.js'])
 		.pipe(concat('libs.min.js'))
 		.pipe(gulp.dest('temp/js'))
 		.pipe(browsersync.reload({
