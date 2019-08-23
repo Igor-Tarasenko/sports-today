@@ -1,14 +1,13 @@
 <!DOCTYPE html>
 <html lang="ru">
-
-<?php include "common/head.php" ?>
+<?php include "common/head.php"; ?>
 
 <body class="bet-page">
 
-<?php include "common/header.php" ?>
+<?php include "common/header.php"; ?>
 
 <main>
-    <?php include "common/main-news.php" ?>
+    <?php include "common/main-news.php"; ?>
 
     <section class="popular-bet">
         <div class="container">
@@ -239,7 +238,7 @@
         </div>
     </section>
 
-    <?php include "common/footer.php" ?>
+    <?php include "common/footer.php"; ?>
 </main>
 <script src="./js/libs.min.js"></script>
 <script src="./js/main.js"></script>

@@ -1,14 +1,13 @@
 <!DOCTYPE html>
 <html lang="ru">
-
-<?php include "common/head.php" ?>
+<?php include "common/head.php"; ?>
 
 <body>
 
-<?php include "common/header.php" ?>
+<?php include "common/header.php"; ?>
 
 <main>
-    <?php include "common/main-news.php" ?>
+    <?php include "common/main-news.php"; ?>
 
     <section class="main-list-news">
         <div class="container">
@@ -18,7 +17,7 @@
                 </div>
                 <div class="col-12 all-news_slider">
                     <div class="item">
-                        <a href="#">
+                        <a href="./news-page.php">
                             <div class="news-img">
                                 <img src="./img/small-news.png" alt="">
                             </div>
@@ -32,7 +31,7 @@
                         </a>
                     </div>
                     <div class="item">
-                        <a href="#">
+                        <a href="./news-page.php">
                             <div class="news-img">
                                 <img src="./img/small-news.png" alt="">
                             </div>
@@ -46,7 +45,7 @@
                         </a>
                     </div>
                     <div class="item">
-                        <a href="#">
+                        <a href="./news-page.php">
                             <div class="news-img">
                                 <img src="./img/small-news.png" alt="">
                             </div>
@@ -60,7 +59,7 @@
                         </a>
                     </div>
                     <div class="item">
-                        <a href="#">
+                        <a href="./news-page.php">
                             <div class="news-img">
                                 <img src="./img/small-news.png" alt="">
                             </div>
@@ -75,7 +74,7 @@
                     </div>
                 </div>
                 <div class="col-12 yellow-btn-block">
-                    <a href="#" class="yellow-btn">See all</a>
+                    <a href="./news.php" class="yellow-btn">See all</a>
                 </div>
             </div>
         </div>
@@ -88,7 +87,7 @@
                 </div>
                 <div class="col-12 all-events_slider">
                     <div class="item">
-                        <a href="#">
+                        <a href="./events.php">
                             <div class="flex-block">
                                 <div class="event_time-and-date">
                                 <p>5:00 PM</p>
@@ -112,7 +111,7 @@
                         </a>
                     </div>
                     <div class="item">
-                        <a href="#">
+                        <a href="./events.php">
                             <div class="flex-block">
                                 <div class="event_time-and-date">
                                     <p>5:00 PM</p>
@@ -136,7 +135,7 @@
                         </a>
                     </div>
                     <div class="item">
-                        <a href="#">
+                        <a href="./events.php">
                             <div class="flex-block">
                                 <div class="event_time-and-date">
                                     <p>5:00 PM</p>
@@ -160,7 +159,7 @@
                         </a>
                     </div>
                     <div class="item">
-                        <a href="#">
+                        <a href="./events.php">
                             <div class="flex-block">
                                 <div class="event_time-and-date">
                                     <p>5:00 PM</p>
@@ -185,7 +184,7 @@
                     </div>
                 </div>
                 <div class="col-12 yellow-btn-block">
-                    <a href="#" class="yellow-btn">See all</a>
+                    <a href="./events.php" class="yellow-btn">See all</a>
                 </div>
             </div>
         </div>
@@ -198,7 +197,7 @@
                 </div>
                 <div class="col-12 all-result_slider">
                     <div class="item">
-                        <a href="#">
+                        <a href="./result.php">
                             <div class="name-of-sport">
                                 <p>football</p>
                             </div>
@@ -226,7 +225,7 @@
                         </a>
                     </div>
                     <div class="item">
-                        <a href="#">
+                        <a href="./result.php">
                             <div class="name-of-sport">
                                 <p>football</p>
                             </div>
@@ -254,7 +253,7 @@
                         </a>
                     </div>
                     <div class="item">
-                        <a href="#">
+                        <a href="./result.php">
                             <div class="name-of-sport">
                                 <p>football</p>
                             </div>
@@ -282,7 +281,7 @@
                         </a>
                     </div>
                     <div class="item">
-                        <a href="#">
+                        <a href="./result.php">
                             <div class="name-of-sport">
                                 <p>tennis</p>
                             </div>
@@ -315,7 +314,7 @@
                     </div>
                 </div>
                 <div class="col-12 yellow-btn-block">
-                    <a href="#" class="yellow-btn">See all</a>
+                    <a href="./result.php" class="yellow-btn">See all</a>
                 </div>
             </div>
         </div>
@@ -328,7 +327,7 @@
                 </div>
                 <div class="col-12 popular-bet_slider">
                     <div class="item">
-                        <a href="#">
+                        <a href="./odds.php">
                             <div class="first-team-win">
                                 <p>Santa Coloma</p>
                                 <p class="bet-for-first-team">1.2</p>
@@ -344,7 +343,7 @@
                         </a>
                     </div>
                     <div class="item">
-                        <a href="#">
+                        <a href="./odds.php">
                             <div class="first-team-win">
                                 <p>Santa Coloma</p>
                                 <p class="bet-for-first-team">1.2</p>
@@ -360,7 +359,7 @@
                         </a>
                     </div>
                     <div class="item">
-                        <a href="#">
+                        <a href="./odds.php">
                             <div class="first-team-win">
                                 <p>Santa Coloma</p>
                                 <p class="bet-for-first-team">1.2</p>
@@ -376,7 +375,7 @@
                         </a>
                     </div>
                     <div class="item">
-                        <a href="#">
+                        <a href="./odds.php">
                             <div class="first-team-win">
                                 <p>Santa Coloma</p>
                                 <p class="bet-for-first-team">1.2</p>
@@ -393,13 +392,13 @@
                     </div>
                 </div>
                 <div class="col-12 yellow-btn-block">
-                    <a href="#" class="yellow-btn">See all</a>
+                    <a href="./odds.php" class="yellow-btn">See all</a>
                 </div>
             </div>
         </div>
     </section>
 
-    <?php include "common/footer.php" ?>
+    <?php include "common/footer.php"; ?>
 </main>
 <script src="./js/libs.min.js"></script>
 <script src="./js/main.js"></script>

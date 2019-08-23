@@ -1,5 +1,4 @@
 $(document).ready(function() {
-
     /*LAUNCH SLIDER*/
     $(".main-news-slider").slick({
         infinite: true,

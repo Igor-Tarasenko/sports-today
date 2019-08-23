@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 <html lang="ru">
-
-<?php include "common/head.php" ?>
+<?php include "common/head.php"; ?>
 
 <body class="one-news-page">
 
-<?php include "common/header.php" ?>
+<?php include "common/header.php"; ?>
 
 <main>
     <section class="one-news">

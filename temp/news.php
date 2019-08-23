@@ -1,14 +1,13 @@
 <!DOCTYPE html>
 <html lang="ru">
-
-<?php include "common/head.php" ?>
+<?php include "common/head.php"; ?>
 
 <body class="news-page">
 
-<?php include "common/header.php" ?>
+<?php include "common/header.php"; ?>
 
 <main>
-    <?php include "common/main-news.php" ?>
+    <?php include "common/main-news.php"; ?>
 
     <section class="main-list-news">
         <div class="container">
@@ -18,7 +17,7 @@
                 </div>
                 <div class="col-lg-4 news-list-block">
                     <div class="item">
-                        <a href="#">
+                        <a href="./news-page.php">
                             <div class="news-img">
                                 <img src="./img/small-news.png" alt="">
                             </div>
@@ -34,7 +33,7 @@
                 </div>
                 <div class="col-lg-4 news-list-block">
                     <div class="item">
-                        <a href="#">
+                        <a href="./news-page.php">
                             <div class="news-img">
                                 <img src="./img/small-news.png" alt="">
                             </div>
@@ -50,7 +49,7 @@
                 </div>
                 <div class="col-lg-4 news-list-block">
                     <div class="item">
-                        <a href="#">
+                        <a href="./news-page.php">
                             <div class="news-img">
                                 <img src="./img/small-news.png" alt="">
                             </div>
@@ -66,7 +65,7 @@
                 </div>
                 <div class="col-lg-4 news-list-block">
                     <div class="item">
-                        <a href="#">
+                        <a href="./news-page.php">
                             <div class="news-img">
                                 <img src="./img/small-news.png" alt="">
                             </div>
@@ -82,7 +81,7 @@
                 </div>
                 <div class="col-lg-4 news-list-block">
                     <div class="item">
-                        <a href="#">
+                        <a href="./news-page.php">
                             <div class="news-img">
                                 <img src="./img/small-news.png" alt="">
                             </div>
@@ -98,7 +97,7 @@
                 </div>
                 <div class="col-lg-4 news-list-block">
                     <div class="item">
-                        <a href="#">
+                        <a href="./news-page.php">
                             <div class="news-img">
                                 <img src="./img/small-news.png" alt="">
                             </div>
@@ -114,7 +113,7 @@
                 </div>
                 <div class="col-lg-4 news-list-block">
                     <div class="item">
-                        <a href="#">
+                        <a href="./news-page.php">
                             <div class="news-img">
                                 <img src="./img/small-news.png" alt="">
                             </div>
@@ -130,7 +129,7 @@
                 </div>
                 <div class="col-lg-4 news-list-block">
                     <div class="item">
-                        <a href="#">
+                        <a href="./news-page.php">
                             <div class="news-img">
                                 <img src="./img/small-news.png" alt="">
                             </div>
@@ -146,7 +145,7 @@
                 </div>
                 <div class="col-lg-4 news-list-block">
                     <div class="item">
-                        <a href="#">
+                        <a href="./news-page.php">
                             <div class="news-img">
                                 <img src="./img/small-news.png" alt="">
                             </div>

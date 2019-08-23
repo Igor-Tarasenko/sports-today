@@ -1,4 +1,4 @@
-<section class="main-news main-news-js">
+<section class="main-news main-news-js" >
     <div class="container-fluid">
         <div class="row">
             <div class="col-12 main-news-slider">
