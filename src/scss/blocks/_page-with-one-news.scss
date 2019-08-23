@@ -1,0 +1,22 @@
+.one-news {
+	.news-description {
+		margin-top: 20px;
+		p {
+			margin-bottom: 15px;
+			text-align: justify;
+			&:last-child {
+				margin-bottom: 0;
+			}
+		}
+		img {
+			margin: 0 20px 15px 0;
+			float: left;
+			max-width: 450px;
+		}
+	}
+	.title-news {
+		h2 {
+			max-width: 790px;
+		}
+	}
+}
