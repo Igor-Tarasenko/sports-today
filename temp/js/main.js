@@ -15,14 +15,36 @@ $(document).ready(function() {
         slidesToShow: 3,
         arrows: false,
         autoplay: true,
-        autoplaySpeed: 2000
+        autoplaySpeed: 2000,
+        responsive: [
+            {
+                breakpoint: 1200,
+                settings: {
+                    slidesToShow: 2,
+                }
+            },
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 1,
+                }
+            }
+        ]
     });
     $(".all-events_slider").slick({
         infinite: true,
         slidesToShow: 2,
         arrows: false,
         autoplay: true,
-        autoplaySpeed: 2000
+        autoplaySpeed: 2000,
+        responsive: [
+            {
+                breakpoint: 1326,
+                settings: {
+                    slidesToShow: 1,
+                }
+            }
+        ]
     });
 
     /*OPEN MENU ON MOBILE AND TABLET*/

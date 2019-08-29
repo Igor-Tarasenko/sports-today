@@ -43,7 +43,7 @@
                 <div class="col-12 main-block-with-odds">
                     <div class="item">
                         <div class="first-team-win">
-                            <p>Santa Coloma</p>
+                            <p class="name-team">Santa Coloma</p>
                             <div class="bet-block-for-first-team">
                                 <p class="bet-for-first-team">2.5</p>
                                 <p class="bet-for-first-team">2.5</p>
@@ -63,7 +63,7 @@
                             </div>
                         </div>
                         <div class="second-team-win">
-                            <p>Santa Coloma</p>
+                            <p class="name-team">Santa Coloma</p>
                             <div class="bet-block-for-second-team">
                                 <p class="bet-for-second-team">2.5</p>
                                 <p class="bet-for-second-team">2.5</p>
@@ -75,7 +75,7 @@
                     </div>
                     <div class="item">
                         <div class="first-team-win">
-                            <p>Santa Coloma</p>
+                            <p class="name-team">Santa Coloma</p>
                             <div class="bet-block-for-first-team">
                                 <p class="bet-for-first-team">2.5</p>
                                 <p class="bet-for-first-team">2.5</p>
@@ -95,7 +95,7 @@
                             </div>
                         </div>
                         <div class="second-team-win">
-                            <p>Santa Coloma</p>
+                            <p class="name-team">Santa Coloma</p>
                             <div class="bet-block-for-second-team">
                                 <p class="bet-for-second-team">2.5</p>
                                 <p class="bet-for-second-team">2.5</p>
@@ -107,7 +107,7 @@
                     </div>
                     <div class="item">
                         <div class="first-team-win">
-                            <p>Santa Coloma</p>
+                            <p class="name-team">Santa Coloma</p>
                             <div class="bet-block-for-first-team">
                                 <p class="bet-for-first-team">2.5</p>
                                 <p class="bet-for-first-team">2.5</p>
@@ -127,7 +127,7 @@
                             </div>
                         </div>
                         <div class="second-team-win">
-                            <p>Santa Coloma</p>
+                            <p class="name-team">Santa Coloma</p>
                             <div class="bet-block-for-second-team">
                                 <p class="bet-for-second-team">2.5</p>
                                 <p class="bet-for-second-team">2.5</p>
@@ -139,7 +139,7 @@
                     </div>
                     <div class="item">
                         <div class="first-team-win">
-                            <p>Santa Coloma</p>
+                            <p class="name-team">Santa Coloma</p>
                             <div class="bet-block-for-first-team">
                                 <p class="bet-for-first-team">2.5</p>
                                 <p class="bet-for-first-team">2.5</p>
@@ -159,7 +159,7 @@
                             </div>
                         </div>
                         <div class="second-team-win">
-                            <p>Santa Coloma</p>
+                            <p class="name-team">Santa Coloma</p>
                             <div class="bet-block-for-second-team">
                                 <p class="bet-for-second-team">2.5</p>
                                 <p class="bet-for-second-team">2.5</p>
@@ -171,7 +171,7 @@
                     </div>
                     <div class="item">
                         <div class="first-team-win">
-                            <p>Santa Coloma</p>
+                            <p class="name-team">Santa Coloma</p>
                             <div class="bet-block-for-first-team">
                                 <p class="bet-for-first-team">2.5</p>
                                 <p class="bet-for-first-team">2.5</p>
@@ -191,7 +191,7 @@
                             </div>
                         </div>
                         <div class="second-team-win">
-                            <p>Santa Coloma</p>
+                            <p class="name-team">Santa Coloma</p>
                             <div class="bet-block-for-second-team">
                                 <p class="bet-for-second-team">2.5</p>
                                 <p class="bet-for-second-team">2.5</p>
@@ -203,7 +203,7 @@
                     </div>
                     <div class="item">
                         <div class="first-team-win">
-                            <p>Santa Coloma</p>
+                            <p class="name-team">Santa Coloma</p>
                             <div class="bet-block-for-first-team">
                                 <p class="bet-for-first-team">2.5</p>
                                 <p class="bet-for-first-team">2.5</p>
@@ -223,7 +223,7 @@
                             </div>
                         </div>
                         <div class="second-team-win">
-                            <p>Santa Coloma</p>
+                            <p class="name-team">Santa Coloma</p>
                             <div class="bet-block-for-second-team">
                                 <p class="bet-for-second-team">2.5</p>
                                 <p class="bet-for-second-team">2.5</p>

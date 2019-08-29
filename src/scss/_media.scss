@@ -13,39 +13,67 @@
 		justify-content: space-between!important;
 	}
 }
-@media screen and (max-width: 1400px) {
-	body, .about .about_text p, .section-5 .question p {
-		font-size: 18px;
+@media screen and (max-width: 1700px) {
+	.main-news .main-news-slider .slick-next {
+		right: 34.6%;
 	}
-	h1 {
-		font-size: 36px;
+}
+@media screen and (max-width: 1500px) {
+	.main-news .main-news-slider .slick-prev {
+		left: 56%;
+	}
+	.main-news .main-news-slider .slick-next {
+		right: 31.6%;
+	}
+}
+@media screen and (max-width: 1400px) {
+	body {
+		font-size: 18px;
 	}
 	header .header-menu ul li:first-child {
 		margin-left: 0;
 	}
+	.main-news .main-news_img {
+		display: flex;
+		align-items: center;
+	}
+	.main-news .main-news_small-description {
+		padding: 70px 40px;
+	}
+	.main-news .main-news-slider .slick-arrow {
+		bottom: 15px;
+	}
+	.main-news .main-news-slider .slick-prev {
+		left: 53%;
+	}
+	.main-news .main-news-slider .slick-next {
+		right: 33.4%;
+	}
+}
+@media screen and (max-width: 1325px) {
+	.main-list-events .name-league {
+		text-align: center;
+	}
+	.main-list-events .event_name {
+		width: 100%;
+	}
+	.main-list-events .event_teams {
+		justify-content: center;
+	}
+	.team p {
+		max-width: 250px;
+	}
+	.main-list-events .event_time-and-date {
+		min-width: 250px;
+	}
 }
 @media screen and (max-width: 1200px) {
-	header .header-menu ul li a {
-		font-size: 16px;
+	.main-news .main-news-slider .slick-next {
+		right: 30.4%;
 	}
-	h1 {
-		font-size: 30px;
-	}
-	h2 {
-		font-size: 50px;
-	}
-	.section-2 .about_text p {
-		font-size: 18px;
-	}
-	header .header-menu ul li {
-		margin-left: 15px;
-		&:first-child {
-			margin-left: 0;
-		}
-	}
-	h3 {
-		font-size: 22px;
-		line-height: 28px;
+	.jq-selectbox__select {
+		min-width: 220px;
+		background: url(../img/small-arrow.png) no-repeat 190px center;
 	}
 }
 @media screen and (max-width: 1050px) {
@@ -54,32 +82,13 @@
 	}
 }
 @media screen and (max-width: 991px) {
-	h1 {
-		text-align: center;
-	}
-	.main-section .title {
-		margin-top: 40px;
-	}
-	.btn-block {
-		justify-content: center;
-	}
-	.main-section .btn-block {
-		margin: 35px 0;
-	}
-	.main-section .title-img {
-		display: flex;
-		justify-content: center;
-		img {
-			width: 70%;
-		}
-	}
-	.logo {
-		padding-left: 35px;
-	}
 	header .header-link a {
 		font-size: 12px;
 		min-height: 30px;
 		min-width: 36px;
+	}
+	header .logo img {
+		height: 35px;
 	}
 	.btn {
 		font-size: 16px;
@@ -88,9 +97,8 @@
 		background: url("../img/bars-solid.png") no-repeat center right;
 		background-size: contain;
 		width: 100%;
-		height: 50px;
+		height: 35px;
 		outline: none;
-		margin-top: 5px;
 	}
 	header .header-menu ul {
 		height: 100%;
@@ -98,7 +106,7 @@
 	}
 	header .header-menu ul li a {
 		font-size: 22px;
-		color: #2b3237;
+		color: #333333;
 	}
 	header .header-menu ul li {
 		margin-top: 15px;
@@ -124,8 +132,8 @@
 	}
 	header .header-menu {
 		margin-top: 0;
-		height: 50px;
-		padding-right: 35px;
+		height: 35px;
+		padding-right: 15px;
 	}
 	header .navbar {
 		height: 100%;
@@ -134,107 +142,171 @@
 	header .header-menu ul li {
 		margin-left: 0;
 	}
-	.toTop {
-		bottom: 50px;
-		right: 50px;
-	}
-	body, .about .about_text p, .section-5 .question p {
+	body {
 		font-size: 16px;
 	}
-	.how-it-works .how-it-works_block .text-description_main {
-		padding: 35px 35px;
+	.main-news .main-news_img img {
+		width: auto;
+		max-height: 450px;
 	}
-	.about .about_img {
-		padding: 0 15px;
+	.main-news .main-news_img {
+		justify-content: center;
 	}
-	.how-it-works {
+	.main-news .news-description {
+		font-size: 16px;
+	}
+	h3 {
+		font-size: 28px;
+	}
+	.main-news .main-news_small-description a {
+		font-size: 14px;
+	}
+	.main-news .main-news-slider .slick-prev {
+		left: 35%;
+	}
+	.main-news .main-news-slider .slick-next {
+		right: 35%;
+	}
+	.main-list-events .event_time-and-date {
+		padding: 50px 20px;
+	}
+	.main-list-events .event_time-and-date {
+		min-width: 139px;
+	}
+	footer .footer-menu ul {
+		padding-left: 0;
+		justify-content: center;
+	}
+	.footer-logo {
+		text-align: center;
+		margin: 20px 0;
+	}
+	footer .footer-copyright {
+		padding-right: 0;
+		justify-content: center;
+	}
+	.jq-selectbox__select {
+		min-width: 280px;
+		background: url(../img/small-arrow.png) no-repeat 250px center;
+	}
+	.bet-page .choose-sport-block {
+		padding-left: 15px;
 		margin-top: 20px;
 	}
-	h2 {
-		font-size: 40px;
+	.popular-bet .item {
+		margin: 0;
 	}
-	.section-3 .slider .slick-prev {
-		left: 15px;
+	.bet-page .block-with-betting-companies {
+		padding-right: 35px;
 	}
-	.section-3 .slider .slick-next {
-		left: 110px;
-	}
-	.section-3 .slider .item {
-		height: 350px;
+	.bet-page .main-title {
+		margin-bottom: 0;
 	}
 }
 @media screen and (max-width: 767px) {
-	.main-section .btn-block {
-		margin-top: 15px;
+	.flex-block {
+		display: block;
 	}
-	h2 {
-		font-size: 33px;
+	.main-list-events .event_time-and-date {
+		padding: 20px;
 	}
-	h3 {
-		min-height: 30px;
+	.main-news .main-news-slider .slick-prev {
+		left: 25%;
+	}
+	.main-news .main-news-slider .slick-next {
+		right: 25%;
+	}
+	.main-news .main-news_img img {
+		max-height: inherit;
+		width: 100%;
 	}
 }
 @media screen and (max-width: 575px) {
-	.section-3 .slider .slick-prev, .section-3 .slider .slick-next {
-		background-size: contain;
-	}
-	.main-section .title-img {
-		padding: 0 15px;
-		img {
-			width: 100%;
-		}
-	}
-	header .logo {
-		padding-left: 0;
-		display: flex;
-		align-items: center;
-	}
-	header .header-menu {
-		padding-right: 15px;
-	}
 	body, .about .about_text p, .section-5 .question p {
 		font-size: 14px;
 	}
-	.about .about_img {
-		margin-bottom: 20px;
-	}
-	.how-it-works .section-with-img_img-block {
-		margin-bottom: 20px;
-		img {
-			height: auto;
+	.bet-page .bet-block-for-first-team p,
+	.bet-page .bet-block-for-draw p,
+	.bet-page .bet-block-for-second-team p {
+		font-size: 14px;
+		width: 35px !important;
+		&:last-child {
+			font-size: 14px;
 		}
 	}
-	.section-3 .slider .slick-arrow {
-		height: 36px;
-	}
-	.section-5 .question {
-		padding: 5px 35px;
-	}
-	.section-3 .slider .item {
-		padding: 15px;
+	.bet-page .block-with-betting-companies img {
+		width: 35px;
 	}
 }
 @media screen and (max-width: 483px) {
-	.toTop {
-		bottom: 20px;
-		right: 20px;
-		width: 60px;
-		img {
-			width: 100%;
-		}
+	.main-list-events .event_teams p {
+		margin: 0;
+		text-align: center;
 	}
-	.section-3 .slider .item {
-		height: 340px;
+	.main-list-events .event_teams {
+		display: block;
+	}
+	.team {
+		justify-content: center;
+		margin: 5px 0;
+	}
+	.popular-bet .item, .main-list-news .item,
+	.main-list-events .all-events_slider .item,
+	.main-score-list .item {
+		margin: 0 8px;
+	}
+	.bet-page .main-block-with-odds .item {
+		margin: 30px 0 0 0;
+	}
+	.main-title {
+		padding-left: 20px;
 	}
 }
+@media screen and (max-width: 430px) {
+
+}
 @media screen and (max-width: 420px) {
-	.logo {
+	.main-news .main-news-slider .slick-prev {
+		left: 10%;
+	}
+	.main-news .main-news-slider .slick-next {
+		right: 10%;
+	}
+	h2 {
+		font-size: 30px;
+	}
+	.main-news .news-description {
+		font-size: 14px;
+	}
+	h3 {
+		font-size: 25px;
+	}
+	.main-news .main-news_small-description {
+		padding: 20px 15px 70px 15px;
+	}
+	.result-page .choose-sport-block {
 		padding-left: 15px;
 	}
-	header .header-menu {
-		padding-right: 15px;
+	.bet-page .bet-block-for-first-team p,
+	.bet-page .bet-block-for-draw p,
+	.bet-page .bet-block-for-second-team p,
+	.bet-page .block-with-betting-companies img {
+		margin-left: 5px;
 	}
-	h1, h2 {
-		letter-spacing: 0;
+	.popular-bet .item p {
+		font-size: 12px;
+	}
+	.bet-page .bet-block-for-first-team p:last-child,
+	.bet-page .bet-block-for-draw p:last-child,
+	.bet-page .bet-block-for-second-team p:last-child {
+		font-size: 12px;
+	}
+}
+@media screen and (max-width: 380px) {
+	.main-block-with-odds .name-team {
+		white-space: nowrap;
+		overflow: hidden;
+		width: 48px;
+		text-overflow: ellipsis;
 	}
 }
