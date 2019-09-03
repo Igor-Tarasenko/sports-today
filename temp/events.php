@@ -17,7 +17,7 @@
                 </div>
                 <div class="col-12 choose-sport-block">
                     <select name="kind-of-sport" class="kind-of-sport">
-                        <option value="" disabled selected hidden>Choose kind of sport</option>
+                        <option value="" disabled hidden>Choose kind of sport</option>
                         <option value="football">football</option>
                         <option value="basketball">basketball</option>
                         <option value="tennis">tennis</option>

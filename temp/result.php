@@ -17,7 +17,7 @@
                 </div>
                 <div class="col-lg-3 choose-sport-block">
                     <select name="kind-of-sport" class="kind-of-sport">
-                        <option value="" disabled selected hidden>Choose kind of sport</option>
+                        <option value="" disabled hidden>Choose kind of sport</option>
                         <option value="football">football</option>
                         <option value="basketball">basketball</option>
                         <option value="tennis">tennis</option>
@@ -26,7 +26,7 @@
                 </div>
                 <div class="col-lg-3 choose-sport-block">
                     <select name="kind-of-sport" class="kind-of-sport">
-                        <option value="" disabled selected hidden>Choose the period</option>
+                        <option value="" disabled hidden>Choose the period</option>
                         <option value="football">football</option>
                         <option value="basketball">basketball</option>
                         <option value="tennis">tennis</option>
@@ -35,7 +35,7 @@
                 </div>
                 <div class="col-lg-3 choose-sport-block">
                     <select name="kind-of-sport" class="kind-of-sport">
-                        <option value="" disabled selected hidden>Tournaments</option>
+                        <option value="" disabled hidden>Tournaments</option>
                         <option value="football">football</option>
                         <option value="basketball">basketball</option>
                         <option value="tennis">tennis</option>
@@ -44,7 +44,7 @@
                 </div>
                 <div class="col-lg-3 choose-sport-block">
                     <select name="kind-of-sport" class="kind-of-sport">
-                        <option value="" disabled selected hidden>Teams</option>
+                        <option value="" disabled hidden>Teams</option>
                         <option value="football">football</option>
                         <option value="basketball">basketball</option>
                         <option value="tennis">tennis</option>
