@@ -90,6 +90,31 @@ gulp.task('fonts-temp', function() {
         .pipe(gulp.dest('temp/fonts'));
 });
 
+// Html
+gulp.task('html-build', function() {
+	return gulp.src('src/*.php')
+		.pipe(gulp.dest('build/'))
+});
+gulp.task('html-folder-build', function() {
+	return gulp.src('src/common/*.php')
+		.pipe(gulp.dest('build/common'))
+});
+
+gulp.task('html-temp', function() {
+	return gulp.src('src/*.php')
+		.pipe(gulp.dest('temp/'))
+		.pipe(browsersync.reload({
+			stream: true
+		}));
+});
+gulp.task('html-folder-temp', function() {
+	return gulp.src('src/common/*.php')
+		.pipe(gulp.dest('temp/common'))
+		.pipe(browsersync.reload({
+			stream: true
+		}));
+});
+
 
 
 // Watch
@@ -98,6 +123,8 @@ gulp.task('watch', function() {
 	gulp.watch('src/img/**/*', gulp.series('tinypng-temp'));
 	gulp.watch('src/js/main.js', gulp.series('scripts-temp'));
     gulp.watch('src/fonts/**/*', gulp.series('fonts-temp'));
+    gulp.watch('src/*.php', gulp.series('html-temp'));
+    gulp.watch('src/common/*.php', gulp.series('html-folder-temp'));
 });
 
 // Browser Sync
@@ -110,11 +137,11 @@ gulp.task('browsersync', function() {
 
 // Default development
 gulp.task('default', gulp.series(
-	gulp.parallel('scss-temp', 'libs-temp', 'scripts-temp', 'tinypng-temp', 'fonts-temp'),
+	gulp.parallel('scss-temp', 'libs-temp', 'scripts-temp', 'tinypng-temp', 'fonts-temp', 'html-temp', 'html-folder-temp'),
 	gulp.parallel('watch', 'browsersync')
 ));
 
 // Build
 gulp.task('build', gulp.series(
-	gulp.parallel('scss-build', 'libs-build', 'scripts-build', 'tinypng-build', 'fonts-build')
+	gulp.parallel('scss-build', 'libs-build', 'scripts-build', 'tinypng-build', 'fonts-build', 'html-build', 'html-folder-build')
 ));
