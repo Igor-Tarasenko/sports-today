@@ -1,3 +1,9 @@
+$(window).on('load', function () {
+    var preloader = $('.preloader'),
+        loader = preloader.find('.cssload-loader');
+    loader.fadeOut();
+    preloader.delay(350).fadeOut('slow');
+});
 $(document).ready(function() {
     /*LAUNCH SLIDER*/
     $(".main-news-slider").slick({

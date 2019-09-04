@@ -3,7 +3,7 @@
 <?php include "common/head.php"; ?>
 
 <body>
-
+<?php include "common/preloader.php"; ?>
 <?php include "common/header.php"; ?>
 
 <main>
@@ -83,7 +83,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 main-title">
-                    <h2>events</h2>
+                    <h2>events-test</h2>
                 </div>
                 <div class="col-12 all-events_slider">
                     <div class="item">
