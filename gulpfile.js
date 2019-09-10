@@ -100,20 +100,13 @@ gulp.task('html-folder-build', function() {
 		.pipe(gulp.dest('build/common'))
 });
 
-gulp.task('html-temp', function() {
-	return gulp.src('src/*.php')
+/*gulp.task('html-temp', function() {
+	return gulp.src('src/!**!/!*.php')
 		.pipe(gulp.dest('temp/'))
 		.pipe(browsersync.reload({
 			stream: true
 		}));
-});
-gulp.task('html-folder-temp', function() {
-	return gulp.src('src/common/*.php')
-		.pipe(gulp.dest('temp/common'))
-		.pipe(browsersync.reload({
-			stream: true
-		}));
-});
+});*/
 
 
 
@@ -123,8 +116,7 @@ gulp.task('watch', function() {
 	gulp.watch('src/img/**/*', gulp.series('tinypng-temp'));
 	gulp.watch('src/js/main.js', gulp.series('scripts-temp'));
     gulp.watch('src/fonts/**/*', gulp.series('fonts-temp'));
-    gulp.watch('src/*.php', gulp.series('html-temp'));
-    gulp.watch('src/common/*.php', gulp.series('html-folder-temp'));
+    /*gulp.watch('src/!**!/!*.php', gulp.series('html-temp'));*/
 });
 
 // Browser Sync
@@ -137,7 +129,7 @@ gulp.task('browsersync', function() {
 
 // Default development
 gulp.task('default', gulp.series(
-	gulp.parallel('scss-temp', 'libs-temp', 'scripts-temp', 'tinypng-temp', 'fonts-temp', 'html-temp', 'html-folder-temp'),
+	gulp.parallel('scss-temp', 'libs-temp', 'scripts-temp', 'tinypng-temp', 'fonts-temp'),
 	gulp.parallel('watch', 'browsersync')
 ));
 

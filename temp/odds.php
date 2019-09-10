@@ -3,6 +3,7 @@
 <?php include "common/head.php"; ?>
 
 <body class="bet-page">
+<?php include "common/preloader.php"; ?>
 
 <?php include "common/header.php"; ?>
 

@@ -1,10 +1,15 @@
-$(window).on('load', function () {
+/*GET NEWS API*/
+
+
+
+
+$(document).ready(function() {
     var preloader = $('.preloader'),
         loader = preloader.find('.cssload-loader');
     loader.fadeOut();
     preloader.delay(350).fadeOut('slow');
-});
-$(document).ready(function() {
+
+
     /*LAUNCH SLIDER*/
     $(".main-news-slider").slick({
         infinite: true,
