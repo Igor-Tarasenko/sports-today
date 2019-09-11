@@ -8,6 +8,11 @@ curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
 
 // EXECUTE:
 $result = curl_exec($curl);
-$data_writing = file_put_contents("news.json", $result);
+curl_close($curl);
+$decodedData = json_decode($result, TRUE);
+var_dump($decodedData);
+die();
+$encodedData = json_encode($decodedData[‘articles’]);
+$data_writing = file_put_contents("news.json", $encodedData);
 curl_close($curl);
 ?>

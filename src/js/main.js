@@ -1,6 +1,20 @@
 /*GET NEWS API*/
+const parsedNewsJson = $.ajax({
+    url: 'news.json',
+    async: false,
+    dataType: 'json',
+    success: function(data){
+        return data;
+    }
+});
+
+console.log(parsedNewsJson);
 
 
+/*
+const topArticles = parsedNews.filter(articles => articles.result.source.ranking.importanceRank > 90);
+console.log(topArticles);
+*/
 
 
 $(document).ready(function() {
@@ -8,7 +22,6 @@ $(document).ready(function() {
         loader = preloader.find('.cssload-loader');
     loader.fadeOut();
     preloader.delay(350).fadeOut('slow');
-
 
     /*LAUNCH SLIDER*/
     $(".main-news-slider").slick({
